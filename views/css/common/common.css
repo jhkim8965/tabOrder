@@ -1,0 +1,85 @@
+/*=======================================================================================
+    For Develop
+=========================================================================================*/
+div {
+    border: #0062cc;
+    border-width: 1px;
+    border-style: solid;
+}
+
+
+
+/*=======================================================================================
+    Page Default Set
+=========================================================================================*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*=======================================================================================
+    Button
+=========================================================================================*/
+.div-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    border: 1px solid #007bff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.div-button:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+
+.div-button-block {
+    display: block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    border: 1px solid #007bff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.div-button-block:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+
+
+
+/*=======================================================================================
+    text / font
+=========================================================================================*/
+.txt-align-center {
+    text-align: center;
+}
+
+.ft-size-10 {font-size: 10px;}
+.ft-size-12 {font-size: 12px;}
+.ft-size-14 {font-size: 14px;}
+.ft-size-16 {font-size: 16px;}
+.ft-size-18 {font-size: 18px;}
+.ft-size-20 {font-size: 20px;}
+.ft-size-22 {font-size: 22px;}
+.ft-size-24 {font-size: 24px;}
+.ft-size-26 {font-size: 26px;}
+.ft-size-28 {font-size: 28px;}
+.ft-size-30 {font-size: 30px;}
+.ft-size-32 {font-size: 32px;}
+.ft-size-34 {font-size: 34px;}
+.ft-size-36 {font-size: 36px;}
+
+.ft-bold {font-weight: bold;}

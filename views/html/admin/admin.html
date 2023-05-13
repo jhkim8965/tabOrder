@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/css/common/common.css">
+    <link rel="stylesheet" type="text/css" href="/css/admin/admin.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script defer src="/js/admin/admin.js"></script>
+  </head>
+  <body>
+    <div class="left-menu">
+        <div>
+            <div class="txt-align-center ft-size-24 ft-bold">관리자 메뉴</div>
+            <div class="div-button-block" id="btn-stock">재고 관리</div>
+            <div class="div-button-block" id="btn-menu">메뉴 관리</div>
+            <div class="div-button-block" id="btn-sales">매출 관리</div>
+        </div>
+    </div>
+    <div class="right-menu">
+        <div class="right-top-menu">
+            <div>
+                <div>
+                    top
+                </div>
+                <div>
+                    <div class="div-button" id="btn-main">메인으로</div>
+                    <div class="div-button" id="btn-api">API Test</div>
+                </div>
+            </div>
+        </div>
+        <div class="right-body">
+            <div class="body-page">
+                <iframe id="body-iframe" src="features/stock.html" frameborder="0"></iframe>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>

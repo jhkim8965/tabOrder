@@ -1,0 +1,88 @@
+/*=======================================================================================
+    Page Default Set
+=========================================================================================*/
+body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+/*=======================================================================================
+    Menu Layout
+=========================================================================================*/
+.left-menu {
+    width: 30%;
+    height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.right-menu {
+    width: 100%;
+    height: 100vh;
+}
+.right-top-menu {
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.right-body {
+    height: 90%;
+}
+
+/* Left Menu List - detail setting */
+.left-menu > div {
+    width: 100%;
+    padding: 10px;
+}
+.left-menu > div > div {
+    margin-bottom: 10px;
+}
+.left-menu > div > div:last-child {
+    margin-bottom: 0px;
+}
+
+/* Right Top Menu - detail setting */
+.right-top-menu > div {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+/*=======================================================================================
+    Button
+=========================================================================================*/
+/* Left Menu Button */
+.div-button-block {
+    width: 100%;
+}
+
+
+
+/*=======================================================================================
+    iframe
+=========================================================================================*/
+.body-page {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+}
